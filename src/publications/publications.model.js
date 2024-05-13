@@ -11,9 +11,8 @@ const PublicationSchema = new mongoose.Schema({
         required: true,
     },
     author: {
-        type: Schema.Types.ObjectId,
-        ref: 'User',
-        required: [true, "The user is required"],
+        type: String,
+        required: true,
     },
     creationDate: {
         type: Date,

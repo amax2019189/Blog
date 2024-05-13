@@ -13,7 +13,7 @@ const UserSchema = mongoose.Schema({
     },
     role: {
         type: String,
-        default: "USER_ROLE",
+        default: "ADMIN_ROLE",
         require: ['ADMIN_ROLE', 'USER_ROLE']
     },
     status: {

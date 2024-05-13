@@ -6,7 +6,7 @@ import { publicationsPost } from "./publications.controller.js";
 const router = Router();
 
 router.post(
-    '/new',
+    '/',
     [
         validarJWT,
         validateFields
